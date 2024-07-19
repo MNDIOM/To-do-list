@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  button:hover {
+    background: green;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border: 1px solid white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li .delete, li .edit, li .save {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  li .delete {
+    background: red;
+    color: white;
+  }
+  
+  li .delete:hover {
+    background: darkred;
+  }
+  
+  li .edit {
+    background: orange;
+    color: white;
+  }
+  
+  li .edit:hover {
+    background: rgb(42, 102, 214);
+  }
+  
+  li .save {
+    background: blue;
+    color: white;
+    display: none;
+  }
+  
+  li .save:hover {
+    background: darkblue;
+  }
+  
